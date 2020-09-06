@@ -1,3 +1,6 @@
+
+//Backend logic- Business Interface
+
 $(document).ready(function () {
   function Pizza(type, size, topping, crust) {
     this.type = type;
@@ -91,6 +94,7 @@ $(document).ready(function () {
     }
   }
 }
+
 
 var customerName = "";
 
