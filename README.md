@@ -1,13 +1,19 @@
-# Cyprian Nyakundi
+# Pizza 
+## You Order We Deliver
+
+## By **Cyprian Nyakundi**
 
 # Project description 
-This project is meant to enable people order Pizza.
+This project is meant to enable people to place their orders and get them delivered too.
 
 
 ### Technologies Used
 - HTML
 - CSS
 - Javascript
+- Bootstrap
+- Jquery
+
 ### Support and Contact details
 For any difficulties accessing the code, comments, concerns, ideas or any form of questions. Kindly contact me at cypriannyakundi@gmail.com
 
