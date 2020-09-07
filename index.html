@@ -16,53 +16,63 @@
       crossorigin="anonymous"
     ></script>
     <title>Home Page</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="jumbotron" margin-top: 25px;>
-    
+      <!--Navbar-->
+      <nav class="navbar navbar-expand-lg">
+        <!-- Collapse button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#basicExampleNav"
+          aria-controls="basicExampleNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-<!--Navbar-->
-<nav  class="navbar navbar-expand-lg ">
+        <!-- Collapsible content -->
+        <div class="collapse navbar-collapse" id="basicExampleNav">
+          <!-- Links -->
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href=""
+                >Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/html/about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/html/menu.html">Menu</a>
+            </li>
 
-  <!-- Collapse button -->
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
-    aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+            <!-- Dropdown -->
+          </ul>
+          <!-- Links -->
 
-  <!-- Collapsible content -->
-  <div class="collapse navbar-collapse" id="basicExampleNav">
-
-    <!-- Links -->
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="">Home
-          <span class="sr-only">(current)</span>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/html/about.html">About Us</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/html/menu.html">Menu</a>
-      </li>
-
-      <!-- Dropdown -->
-    </ul>
-    <!-- Links -->
-
-    <form class="form-inline">
-      <div class="md-form my-0">
-        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-      </div>
-    </form>
-  </div>
-  <!-- Collapsible content -->
-
-</nav>
-<!--/.Navbar-->
-
-
+          <form class="form-inline">
+            <div class="md-form my-0">
+              <input
+                class="form-control mr-sm-2"
+                type="text"
+                placeholder="Search"
+                aria-label="Search"
+              />
+            </div>
+          </form>
+        </div>
+        <!-- Collapsible content -->
+      </nav>
+      <!--/.Navbar-->
 
       <div class="container-fluid" margin-top: 50px;>
         <div class="row">
@@ -196,6 +206,51 @@
           <button type="submit" class="btn btn-primary">Submit</button>
         </form>
       </div>
+      <!-- Footer -->
+      <footer class="page-footer font-small teal pt-4">
+        <!-- Footer Text -->
+        <div class="container-fluid text-center text-md-left">
+          <!-- Grid row -->
+          <div class="row">
+            <!-- Grid column -->
+            <div class="col-md-6 mt-md-0 mt-3">
+              <!-- Content -->
+              <h5 class="text-uppercase font-weight-bold">Footer text 1</h5>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Expedita sapiente sint, nulla, nihil repudiandae commodi
+                voluptatibus corrupti animi sequi aliquid magnam debitis, maxime
+                quam recusandae harum esse fugiat. Itaque, culpa?
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <hr class="clearfix w-100 d-md-none pb-3" />
+
+            <!-- Grid column -->
+            <div class="col-md-6 mb-md-0 mb-3">
+              <!-- Content -->
+              <h5 class="text-uppercase font-weight-bold">Hit Us</h5>
+              <p>
+                Welcome to Our Pizza Shop Don't fail to contact us if you need a
+                custom order. Pick Up your phone and dial 0710280973 or email
+                sales@bigbudypizza.com
+              </p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+        <!-- Footer Text -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">
+          © 2020 Copyright:
+          <a href="https://mdbootstrap.com/"> Big Buddy Pizza</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
       <script
         src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
