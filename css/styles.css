@@ -3,5 +3,30 @@ body{
 }
 
 body  {
-    background-image: url("https://st.depositphotos.com/3470617/4920/v/950/depositphotos_49203401-stock-illustration-pizza-background.jpg");
+    background-image: url(./images/background2.jpg);
     background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-fluid {
+    background-color: wheat;
+}
+.checkout-options{
+    background-color: wheat;
+}
+.location{
+    background-color: wheat;
+    float: left;
+}
+.carousel-item{
+    height: 650px;
+}
+.cn{
+    color: ivory;
+}
+.bold{
+    font-weight: bolder;
+    font-size: 30px;
+    color: royalblue;
+}
