@@ -1,5 +1,5 @@
 # Pizza 
-## You Order We Deliver
+#### You Order We Deliver
 
 ## By **Cyprian Nyakundi**
 
@@ -9,7 +9,7 @@ This project is meant to enable people to place their orders and get them delive
 ## live site 
 
 ## Setup/Installation
-- git clone git@github.com:cnyakundi/pizzawebsite.git
+- git clone this repository
 - navigate into pizzawebsite directory
 - open the html file using atom . or code .
 
