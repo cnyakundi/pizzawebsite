@@ -3,9 +3,15 @@
 
 ## By **Cyprian Nyakundi**
 
-# Project description 
+## Project description 
 This project is meant to enable people to place their orders and get them delivered too.
 
+## live site 
+
+## Setup/Installation
+- git clone git@github.com:cnyakundi/pizzawebsite.git
+- navigate into pizzawebsite directory
+- open the html file using atom . or code .
 
 ### Technologies Used
 - HTML
