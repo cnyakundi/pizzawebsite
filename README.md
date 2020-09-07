@@ -7,6 +7,7 @@
 This project is meant to enable people to place their orders and get them delivered too.
 
 ## live site 
+<a href="https://cnyakundi.github.io/pizzawebsite/.">Live site</a>
 
 ## Setup/Installation
 - git clone this repository
